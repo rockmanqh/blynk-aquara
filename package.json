@@ -1,0 +1,26 @@
+{
+  "name": "blynk_aqara",
+  "version": "0.0.1",
+  "description": "link data of aqara devices to blynk (source code from homebridge-aqara. Thanks to snOOz)",
+  "main": "udpserver.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node udpserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockmanqh/blynk-aquara.git"
+  },
+  "keywords": [
+    "aqara",
+    "xiaomi",
+    "blynk"
+  ],
+  "author": "Thanh Song PHAN",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rockmanqh/blynk-aquara/issues"
+  },
+  "homepage": "https://github.com/rockmanqh/blynk-aquara#readme"
+}
