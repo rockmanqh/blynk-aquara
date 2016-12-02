@@ -25,5 +25,5 @@
     node udpserver.js
  
   + run code on reboot:
-    @reboot /usr/loca/bin/node /home/pi/udpserver.js
+    @reboot /usr/local/bin/node /home/pi/udpserver.js
 
