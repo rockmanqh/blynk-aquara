@@ -18,8 +18,12 @@
   + var v_door = 'V2';
 
 - Run the project
-  + install plugin request
+  + install plugin request:
     npm install request -g 
   
-  + run  
+  + test code:  
     node udpserver.js
+ 
+  + run code on reboot:
+    @reboot /usr/loca/bin/node /home/pi/udpserver.js
+
