@@ -9,6 +9,9 @@ https://raw.githubusercontent.com/rockmanqh/blynk-aquara/master/blynk-aqara.png
 http://xiaomi-mi.com/uploads/CatalogueImage/fgfg%20(1)_13743_1435134515.jpg
 
 ## Installation
+- Enable LAN mode of xiaomi gateway
+http://bbs.xiaomi.cn/t-13198850
+
 - Get data from aqara devices 
   + Xiaomi Temperature-Humidity
   + Xiaomi Contact sensor
