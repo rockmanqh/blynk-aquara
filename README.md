@@ -1,11 +1,11 @@
 # blynk-aquara
 =========
 
-- The source code is from the project homebridge-aqara
+- The source code is from the project [homebridge-aqara](https://github.com/snOOrz/homebridge-aqara)
   Thanks to @snOOrz
 
-https://raw.githubusercontent.com/rockmanqh/blynk-aquara/master/blynk-aqara.png
-http://xiaomi-mi.com/uploads/CatalogueImage/fgfg%20(1)_13743_1435134515.jpg
+![Blynk project]((https://raw.githubusercontent.com/rockmanqh/blynk-aquara/master/blynk-aqara.png)
+![Xiaomi devices - aqara](http://xiaomi-mi.com/uploads/CatalogueImage/fgfg%20(1)_13743_1435134515.jpg)
 
 ## Installation
 - Enable LAN mode of xiaomi gateway
@@ -29,10 +29,10 @@ http://bbs.xiaomi.cn/t-13198850
 ## Tests
 - Run the project
   + install plugin request:
-    ``npm install request -g```  
+  ```npm install request -g```
+ 
   + test code:  
     ```node udpserver.js```
  
   + run code on reboot:
     ```@reboot /usr/local/bin/node /home/pi/udpserver.js```
-
