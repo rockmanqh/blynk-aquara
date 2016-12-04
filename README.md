@@ -8,17 +8,24 @@
 ![Xiaomi devices - aqara](http://xiaomi-mi.com/uploads/CatalogueImage/fgfg%20(1)_13743_1435134515.jpg)
 
 ## Installation
-- Enable LAN mode of xiaomi gateway ```http://bbs.xiaomi.cn/t-13198850```
-  + On `about page` of Xiaomi Gateway, click on version number a couple times to active developper mode.
-  + Two others options will appear, then click on the option (with longest words in chinese just appeared) and active LAN mode.
+- Enable LAN mode of xiaomi gateway ```http://bbs.xiaomi.cn/t-13198850```, you must upgrade to lastest version. 
+  + On **`about page`** of Xiaomi Gateway, click on version number (1.2.6) a couple times to active developper mode.
+  + Two others options will appear, then click on the option *with longest words in chinese just appeared* and active LAN mode.
 
 - Get data from aqara devices 
   + Xiaomi Temperature-Humidity
   + Xiaomi Contact sensor
-
+  + Xiaomi Human Body Sensor
+  + Xiaomi Bulblight, ...
+  
 - Create a blynk project and put the token key in the udpserver.js file
   + Add 3 label in the project
   + Set the virtual pin for each label : V0, V1, V2
+
+Label 1 | Label 2 | Label 3
+--- | --- | ---
+V0 | V1 | V2
+
 
 ## Usage                                
 - Put the token key in the udpserver.js file
